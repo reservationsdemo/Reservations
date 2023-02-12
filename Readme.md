@@ -42,7 +42,7 @@
 
     API: `http://localhost:8080/reservations/search?startDate={startDate}&endDate={startDate}`<br>
     method: GET<br>
-    Example: `http://localhost:8080/reservations/search?startDate={01-01-2023}&endDate={01-10-2023}`
+    Example: `http://localhost:8080/reservations/search?startDate=01-01-2023&endDate=01-10-2023`
 
 
 
