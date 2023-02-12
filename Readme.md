@@ -7,6 +7,7 @@
 ##Steps for API testing
 
 1. #Create a Reservation
+
     API:   `http://localhost:8080/reservations/create`
     method: POST
     Body:   `{
