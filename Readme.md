@@ -25,20 +25,26 @@
     API: `http://localhost:8080/reservations/list`<br>
     method: GET
 
-3. ### Cancel Reservation
+3. ### Get Reservation Details
+
+    API: `http://localhost:8080/reservations/details/{reservationId}`<br>
+    method: GET    
+    Example: `http://localhost:8080/reservations/details/63e86f9b8ae2184d1ede3c6b`<br>
+
+4. ### Cancel Reservation
 
     API: `http://localhost:8080/reservations/cancel/{reservationId}`<br>
     method: PUT<br>
     Example: `http://localhost:8080/reservations/cancel/63e86f9b8ae2184d1ede3c6b`<br>
 
-4. ### Guest Stay Summary
+5. ### Guest Stay Summary
 
     API: `http://localhost:8080/reservations/guest/stay-summary/{groupId}`<br>
     method: GET<br>
     Example: `http://localhost:8080/reservations/guest/stay-summary/GS3532523601`
 
 
-5. ### Reservations by Date Range
+6. ### Reservations by Date Range
 
     API: `http://localhost:8080/reservations/search?startDate={startDate}&endDate={startDate}`<br>
     method: GET<br>
