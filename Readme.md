@@ -46,4 +46,4 @@
 
 
 
-## NOTE: Date format in body or query params should be in **MM/DD/YYYY** Format.    
+### NOTE: Date format in body or query params should be in **MM-DD-YYYY** Format.    
